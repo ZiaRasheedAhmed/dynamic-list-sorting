@@ -1,0 +1,37 @@
+.search {
+  padding: 20px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #c8c7c7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  input {
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+  }
+  button{
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    &:hover{
+        background-color: skyblue;
+        color: white;
+    }
+  }
+  .sort{
+    display: flex;
+    justify-content: end;
+    select{
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+    }
+}
+}
